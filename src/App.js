@@ -2,7 +2,6 @@
 import React from 'react';
 import Header from '../src/components/Header/Header';
 import HomeSection from '../src/components/HomeSection/HomeSection';
-import Footer from '../src/components/Footer/Footer';
 import SearchPopup from '../src/components/SearchPopup/SearchPopup';
 import CartSidebar from '../src/components/CartSidebar/CartSidebar';
 import WishlistSidebar from '../src/components/WishlistSidebar/WishlistSidebar';
@@ -21,7 +20,6 @@ const App = () => {
       <Slider />
       <HomeSection />
       <NewProduct />
-      {/* <Footer /> */}
     </div>
   );
 };
