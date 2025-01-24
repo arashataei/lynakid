@@ -1,0 +1,35 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Section Styles */
+.home-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+/* Product Tab Styles */
+.product-tab {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
