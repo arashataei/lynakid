@@ -17,8 +17,8 @@ const Header = () => {
                       className="svg_img"
                       alt="Site menu"
                   /></a>
-                  <a href="index.html" className="ms-site-logo"
-                    ><img src="assets/img/logo/logo.png" alt="Site Logo"
+                  <a href="/" className="ms-site-logo"
+                    ><img src="assets/img/logo/lyna.png" alt="Site Logo" className='logoLynaKids'
                   /></a>
                 </div>
                 <ul className="ms-menu">
@@ -207,7 +207,7 @@ const Header = () => {
                   </li>
                   <li className="dropdown drop-list">
                     <a href="javascript:void(0)" className="dropdown-arrow"
-                      >سایر موارد
+                      >دسترسی سریع
                       <i className="fas fa-chevron-right" aria-hidden="true"></i>
                     </a>
                     <ul className="sub-menu">
@@ -224,15 +224,15 @@ const Header = () => {
                       <li><a href="privacy-policy.html">خط‌مشی رازداری</a></li>
                     </ul>
                   </li>
-                  <li className="non-drop">
+                  {/* <li className="non-drop">
                     <a href="discover.html"
                       ><img
                         src="assets/img/icons/discover.svg"
                         className="svg_img"
                         alt="discover"
-                      />کشف</a
+                      />همکاری با ما</a
                     >
-                  </li>
+                  </li> */}
                 </ul>
 
                 <div className="ms-menu-right-icons">
