@@ -21,7 +21,7 @@ const App = () => {
       <Slider />
       <HomeSection />
       <NewProduct />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
