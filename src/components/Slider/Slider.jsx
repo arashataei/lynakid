@@ -39,7 +39,7 @@ const Slider = () => {
                 <span>موارد</span>
               </a>
               <span className="noty">
-                <span>محصولات</span>
+                <span>دسته بندی ها</span>
               </span>
             </li>
             <li>
@@ -53,10 +53,10 @@ const Slider = () => {
                   className="svg_img pro_svg"
                   alt=""
                 />
-                <span>پیشنهادات</span>
+                <span>تخفیف ها</span>
               </a>
               <span className="noty">
-                <span>پیشنهادات</span>
+                <span>تخفیف ها</span>
               </span>
             </li>
             <li>
@@ -70,10 +70,10 @@ const Slider = () => {
                   className="svg_img pro_svg"
                   alt=""
                 />
-                <span>فهرست</span>
+                <span>دسترسی سریع</span>
               </a>
               <span className="noty">
-                <span>فهرست</span>
+                <span>دسترسی سریع</span>
               </span>
             </li>
             <li>
@@ -87,10 +87,10 @@ const Slider = () => {
                   className="svg_img pro_svg"
                   alt=""
                 />
-                <span>اخبار</span>
+                <span>بلاگ</span>
               </a>
               <span className="noty">
-                <span>اخبار</span>
+                <span>بلاگ</span>
               </span>
             </li>
           </ul>

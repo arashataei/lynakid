@@ -1,0 +1,40 @@
+/* New Custom Styles */
+
+.lk-header-counts-whichlist {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    left: -12px;
+    height: 20px;
+    min-width: 20px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #ee2d77;
+    bottom: 0;
+    padding: 0 4px;
+}
+.lk-header-counts-cart {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    left: -12px;
+    height: 20px;
+    min-width: 20px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #2fbbf0;
+    bottom: 0;
+    padding: 0 4px;
+}

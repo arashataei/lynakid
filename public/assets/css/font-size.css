@@ -1,0 +1,49 @@
+/* new Font Sizes by cthunter */
+
+:root {
+    /* Font sizes */
+    --text-xs: 0.75rem; /* 12px */
+    --text-sm: 0.875rem; /* 14px */
+    --text-base: 1rem; /* 16px */
+    --text-lg: 1.125rem; /* 18px */
+    --text-xl: 1.25rem; /* 20px */
+  
+    /* Line heights (1.5 times the font size) */
+    --text-xs--line-height: calc(1.5 * var(--text-xs)); /* 18px */
+    --text-sm--line-height: calc(1.5 * var(--text-sm)); /* 21px */
+    --text-base--line-height: calc(1.5 * var(--text-base)); /* 24px */
+    --text-lg--line-height: calc(1.5 * var(--text-lg)); /* 27px */
+    --text-xl--line-height: calc(1.5 * var(--text-xl)); /* 30px */
+  }
+  
+  @media screen and (min-width: 796px) {
+    /* Extra Small (xs) */
+    .text-xs {
+      font-size: var(--text-xs); /* 12px */
+      line-height: var(--text-xs--line-height); /* 18px */
+    }
+  
+    /* Small (sm) */
+    .text-sm {
+      font-size: var(--text-sm); /* 14px */
+      line-height: var(--text-sm--line-height); /* 21px */
+    }
+  
+    /* Base (default) */
+    .text-base {
+      font-size: var(--text-base); /* 16px */
+      line-height: var(--text-base--line-height); /* 24px */
+    }
+  
+    /* Large (lg) */
+    .text-lg {
+      font-size: var(--text-lg); /* 18px */
+      line-height: var(--text-lg--line-height); /* 27px */
+    }
+  
+    /* Extra Large (xl) */
+    .text-xl {
+      font-size: var(--text-xl); /* 20px */
+      line-height: var(--text-xl--line-height); /* 30px */
+    }
+  }

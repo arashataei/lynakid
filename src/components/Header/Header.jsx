@@ -1,5 +1,7 @@
 // Header.jsx
 import React from 'react';
+import {Link} from 'react-router-dom'
+import Blog from '../../pages/Blog';
 
 const Header = () => {
   return (
@@ -18,14 +20,13 @@ const Header = () => {
                       alt="Site menu"
                   /></a>
                   <a href="/" className="ms-site-logo"
-                    ><img src="assets/img/logo/lyna.png" alt="Site Logo" className='logoLynaKids'
+                    ><img src="assets/img/logo/linakids-persian-3.png" alt="Site Logo" className='logoLynaKids'
                   /></a>
                 </div>
                 <ul className="ms-menu">
-                  <li className="non-drop"><a href="index.html">خانه</a></li>
                   <li className="dropdown drop-list position-static">
                     <a href="javascript:void(0)" className="dropdown-arrow"
-                      >دسته بندی
+                      >دسته بندی محصولات
                       <i className="fas fa-chevron-right" aria-hidden="true"></i>
                     </a>
                     <ul className="mega-menu d-block">
@@ -33,7 +34,7 @@ const Header = () => {
                         <span className="bg"></span>
                         <ul className="d-block">
                           <li className="menu_title">
-                            <a href="javascript:void(0)">کلاسیک</a>
+                            <a href="javascript:void(0)">لباس دخترانه</a>
                           </li>
                           <li>
                             <a href="shop-left-sidebar-col-3.html"
@@ -61,7 +62,7 @@ const Header = () => {
                         </ul>
                         <ul className="d-block">
                           <li className="menu_title">
-                            <a href="javascript:void(0)">بنر</a>
+                            <a href="javascript:void(0)">لباس پسرانه</a>
                           </li>
                           <li>
                             <a href="shop-banner-left-sidebar-col-3.html"
@@ -91,7 +92,7 @@ const Header = () => {
                         </ul>
                         <ul className="d-block">
                           <li className="menu_title">
-                            <a href="javascript:void(0)">ستون‌ها</a>
+                            <a href="javascript:void(0)">اکسسوری</a>
                           </li>
                           <li>
                             <a href="shop-full-width-col-3.html"
@@ -119,92 +120,10 @@ const Header = () => {
                             >
                           </li>
                         </ul>
-                        <ul className="d-block">
-                          <li className="menu_title">
-                            <a href="javascript:void(0)">فهرست</a>
-                          </li>
-                          <li>
-                            <a href="shop-list-left-sidebar.html"
-                              >خرید سمت چپ نوار کناری</a
-                            >
-                          </li>
-                          <li>
-                            <a href="shop-list-right-sidebar.html"
-                              >درست خرید کنید نوار کناری</a
-                            >
-                          </li>
-                          <li>
-                            <a href="shop-list-banner-left-sidebar.html"
-                              >بنر سمت چپ نوار کناری</a
-                            >
-                          </li>
-                          <li>
-                            <a href="shop-list-banner-right-sidebar.html"
-                              >بنر درست نوار کناری</a
-                            >
-                          </li>
-                          <li>
-                            <a href="shop-list-full-col-2.html"
-                              >عرض کامل 2 ستون‌ها</a
-                            >
-                          </li>
-                        </ul>
                       </li>
                     </ul>
                   </li>
-                  <li className="dropdown drop-list">
-                    <a href="javascript:void(0)" className="dropdown-arrow"
-                      >محصولات
-                      <i className="fas fa-chevron-right" aria-hidden="true"></i>
-                    </a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="product-left-sidebar.html"
-                          >نوار کناری سمت چپ محصول</a
-                        >
-                      </li>
-                      <li>
-                        <a href="product-right-sidebar.html"
-                          >نوار کناری سمت راست محصول</a
-                        >
-                      </li>
-                      <li>
-                        <a href="product-full-width.html">عرض کامل محصول</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="dropdown drop-list">
-                    <a href="javascript:void(0)" className="dropdown-arrow"
-                      >وبلاگ
-                      <i className="fas fa-chevron-right" aria-hidden="true"></i>
-                    </a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="blog-left-sidebar.html">نوار کناری سمت چپ</a>
-                      </li>
-                      <li>
-                        <a href="blog-right-sidebar.html"
-                          >نوار کناری سمت راست</a
-                        >
-                      </li>
-                      <li><a href="blog-full-width.html">عرض کامل</a></li>
-                      <li>
-                        <a href="blog-detail-left-sidebar.html"
-                          >نوار کناری سمت چپ جزئیات</a
-                        >
-                      </li>
-                      <li>
-                        <a href="blog-detail-right-sidebar.html"
-                          >نوار کناری سمت راست جزئیات</a
-                        >
-                      </li>
-                      <li>
-                        <a href="blog-detail-full-width.html"
-                          >جزئیات تمام عرض</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
+                  
                   <li className="dropdown drop-list">
                     <a href="javascript:void(0)" className="dropdown-arrow"
                       >دسترسی سریع
@@ -223,6 +142,9 @@ const Header = () => {
                       <li><a href="terms-condition.html">شرایط شرایط</a></li>
                       <li><a href="privacy-policy.html">خط‌مشی رازداری</a></li>
                     </ul>
+                  </li>
+                  <li className="dropdown drop-list">
+                    <Link to="/blog">بلاگ</Link>
                   </li>
                   {/* <li className="non-drop">
                     <a href="discover.html"
@@ -262,6 +184,9 @@ const Header = () => {
                           />
                         </a>
                         <ul className="ms-dropdown-menu">
+                          <p className='bg-red-500 text-red-50 rounded-3 m-2 p-2 text-end text-xs'>
+                              غیرفعال است
+                          </p>
                           <li>
                             <a className="dropdown-item" href="register.html"
                               >ثبت نام</a
@@ -293,7 +218,7 @@ const Header = () => {
                         alt="icon"
                       />
                     </a>
-                    <span className="ms-header-count">4</span>
+                    <span className="lk-header-counts-whichlist bg-red-300">4</span>
                   </div>
 
                   <div className="ms-header-cart">
@@ -307,7 +232,7 @@ const Header = () => {
                         alt="icon"
                       />
                     </a>
-                    <span className="ms-header-count cart-count-lable">3</span>
+                    <span className="lk-header-counts-cart cart-count-lable">3</span>
                   </div>
                 </div>
               </div>
@@ -320,7 +245,7 @@ const Header = () => {
       <div className="ms-mobile-menu-overlay"></div>
       <div id="ms-mobile-menu" className="ms-mobile-menu">
         <div className="ms-menu-title">
-          <span className="menu_title">منوی من</span>
+          <span className="menu_title">لیناکیدز</span>
           <button className="ms-close-menu">×</button>
         </div>
         <div className="ms-menu-inner">
@@ -329,7 +254,7 @@ const Header = () => {
               <li><a href="index.html">صفحه اصلی</a></li>
 
               <li>
-                <a href="javascript:void(0)">دسته‌ها</a>
+                <a href="javascript:void(0)">دسته بندی محصولات</a>
                 <ul className="sub-menu">
                   <li>
                     <a href="javascript:void(0)">تنوع کلاسیک</a>
@@ -441,26 +366,8 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-              <li>
-                <a href="javascript:void(0)">محصولات</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="product-left-sidebar.html"
-                      >نوار کناری سمت چپ محصول</a
-                    >
-                  </li>
-                  <li>
-                    <a href="product-right-sidebar.html"
-                      >نوار کناری سمت راست محصول</a
-                    >
-                  </li>
-                  <li>
-                    <a href="product-full-width.html">product-full-width</a>
-                  </li>
-                </ul>
-              </li>
               <li className="dropdown">
-                <a href="javascript:void(0)">وبلاگ</a>
+                <a href="javascript:void(0)">بلاگ</a>
                 <ul className="sub-menu">
                   <li>
                     <a href="blog-left-sidebar.html">نوار کناری سمت چپ وبلاگ</a>
@@ -489,7 +396,7 @@ const Header = () => {
                 </ul>
               </li>
               <li>
-                <a href="javascript:void(0)">سایر موارد</a>
+                <a href="javascript:void(0)">لینک های سریع</a>
                 <ul className="sub-menu">
                   <li><a href="about-us.html">درباره ما</a></li>
                   <li><a href="contact-us.html">با ما تماس بگیرید</a></li>

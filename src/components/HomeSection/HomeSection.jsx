@@ -7,7 +7,7 @@ const HomeSection = () => {
       <div className="container-fluid p-0">
         <div className="ms-row">
           <div className="col-xl-6 col-lg-12 border-content">
-            <div className="profile-img main-bg-black">
+            <div className="profile-img main-bg-black bg-slate-50">
               <div className="ms-hero-slider owl-carousel" dir="ltr">
                 <div className="ms-slide ms-slide-1">
                   <div className="ms-slide-content">
@@ -43,7 +43,7 @@ const HomeSection = () => {
             </div>
           </div>
           <div className="col-xl-6 col-lg-12 border-content-color">
-            <div className="ms-category-block-2">
+            <div className="ms-category-block-2 bg-slate-50">
               <div className="ms-cat-box ms-cat-box-1">
                 <a href="shop-left-sidebar-col-3.html" className="ms-cat-icon">
                   <span className="ms-lbl">30% تخفیف</span>
